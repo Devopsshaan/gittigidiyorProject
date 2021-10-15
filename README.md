@@ -1,13 +1,11 @@
-# gittigidiyor-selenium-project
-Selenium Web Otomasyon
-- www.gittigidiyor.com sitesi açılır.
-- Ana sayfanın açıldığı kontrol edilir. Siteye login olunur
-- Login işlemi kontrol edilir.
-- Arama kutucuğuna bilgisayar kelimesi girilir.
-- Arama sonuçları sayfasından 2.sayfa açılır.
-- 2.sayfanın açıldığı kontrol edilir.
-- Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.
-- Seçilen ürün sepete eklenir.
-- Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.
-- Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
-- Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.
+--Navigate to www.gittigidiyor.com
+- Check if the homepage loaded properly, Login to website.
+- Check if the Login was successful
+- Type “Bilgisayar” on search box
+- Open the second page from “Search Results”
+- According to the results select a random product
+- Write the “Product Data” and “Product Price” in to a .txt file.
+- Add product to the cart
+- Check if the price on product listing page and the price on cart is equal
+- Increase the quantity and check if the quantity is 2
+- Delete the product from the cart and check if the cart is empty
