@@ -13,6 +13,7 @@ public class Log4j {
     //Warn
     public static void warn (String message) {
         logger.warn(message);
+   
     }
 
     //Error
